@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1ln9kExPVy7K8hno6D0SFNV0potrzMtiQW1SlYwO+5EX1NYq/ZZUqTTXOFb5+FDnkA9lisWOIASNuJADYU6xHQ==",
+  "success": true,
+  "projectFilePath": "D:\\ProjetosDotNET\\API\\API-Rest-ASP.NET5\\RestWithASPNET\\CalcAPI\\CalcAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bronze V\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Bronze V\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Bronze V\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Bronze V\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Bronze V\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Bronze V\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
