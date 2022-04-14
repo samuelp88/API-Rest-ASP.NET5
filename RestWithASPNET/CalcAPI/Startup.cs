@@ -19,6 +19,7 @@ using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 namespace CalcAPI
@@ -48,6 +49,15 @@ namespace CalcAPI
             {
                 MigrateDatabase(connection);
             }
+
+            services.AddMvc(options =>
+            {
+                options.RespectBrowserAcceptHeader = true;
+
+                options.FormatterMappings.SetMediaTypeMappingForFormat("xml", MediaTypeHeaderValue.Parse("applicaiton/xml").ToString());
+                options.FormatterMappings.SetMediaTypeMappingForFormat("json", MediaTypeHeaderValue.Parse("applicaiton/json").ToString());
+            })
+                .AddXmlSerializerFormatters();
 
             services.AddControllers();
             services.AddApiVersioning();
